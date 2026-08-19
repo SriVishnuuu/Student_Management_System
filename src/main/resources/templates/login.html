@@ -49,6 +49,32 @@
                     <button type="submit" class="btn btn-primary py-2 fs-6">Login</button>
                 </div>
             </form>
+
+
+            <!-- Demo Login -->
+            <div class="text-center mt-2">
+
+                <div class="d-flex align-items-center my-2">
+                    <hr class="flex-grow-1">
+                    <span class="mx-2 text-muted small">OR</span>
+                    <hr class="flex-grow-1">
+                </div>
+
+                <p class="text-muted small mb-2">
+                    Want to explore the application?
+                </p>
+
+                <form th:action="@{/demo-login}" method="post">
+                    <button type="submit"
+                            class="btn btn-outline-primary w-100 py-2">
+
+                        <i class="bi bi-box-arrow-in-right me-1"></i>
+                        Login as Demo User
+
+                    </button>
+                </form>
+
+            </div>
         </div>
     </div>
 
